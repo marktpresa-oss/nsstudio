@@ -1,6 +1,6 @@
 import React from 'react';
 import { LogoNS } from './LogoNS';
-import { Instagram, Linkedin, Facebook, Youtube, MessageCircle, ArrowUp, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Linkedin, Facebook, Youtube, MessageCircle, ArrowUp, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -82,20 +82,14 @@ export const Footer: React.FC = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-xs font-mono uppercase tracking-widest text-amber-300 mb-4">
-              Sede & Contato
+              Contato
             </h4>
             <ul className="space-y-3 text-xs text-neutral-400 font-light">
-              <li className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-                <span>Av. Faria Lima, 3477 - Itaim Bibi, São Paulo - SP</span>
-              </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                <span>contato@nsstudio.com.br</span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                <span>+55 (11) 3090-8800</span>
+                <a href="mailto:contato@nsstudio.com.br" className="hover:text-white transition-colors">
+                  contato@nsstudio.com.br
+                </a>
               </li>
             </ul>
           </div>

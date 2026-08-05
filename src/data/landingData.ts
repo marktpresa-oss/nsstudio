@@ -1,3 +1,5 @@
+import executiveAvatar from '../assets/images/executive_avatar_1785962961684.jpg';
+
 export interface ServiceCategory {
   id: string;
   title: string;
@@ -432,7 +434,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     name: 'Dr. Roberto Caldas',
     role: 'CEO & Founder',
     company: 'Vanguard Health Group',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80',
+    image: executiveAvatar,
     content: 'O NS Studio transformou completamente a forma como o mercado enxerga o nosso grupo. A nova identidade e o site imersivo nos colocaram em outro patamar de negociação corporativa.',
     rating: 5,
     featuredResult: 'Crescimento de 320% nas oportunidades B2B'

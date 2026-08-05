@@ -64,6 +64,7 @@ export const Testimonials: React.FC = () => {
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full object-cover border-2 border-amber-400/60 shadow-lg"
+                    referrerPolicy="no-referrer"
                   />
                   <div>
                     <h3 className="text-sm font-bold text-white group-hover:text-amber-200 transition-colors">
