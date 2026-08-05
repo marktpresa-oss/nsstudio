@@ -1,0 +1,6 @@
+{
+  "name": "NS STUDIO",
+  "description": "Landing Page Premium do NS STUDIO (Grupo NS) - Estratégia, Branding, Design, Marketing e Performance de alto nível.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
